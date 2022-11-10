@@ -88,7 +88,6 @@ const HomeDownPart = () => {
                                 className="w-16 h-16"
                                 alt="display avatar"
                                 role="img"
-
                             />
                         </div>
                         <div role="listitem" className="flex justify-center items-center">

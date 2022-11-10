@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
-import { Link, useLoaderData, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLoaderData, useNavigate } from 'react-router-dom';
 import useTitle from '../../hooks/useTitleHooks';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import Comment from './Comment';
