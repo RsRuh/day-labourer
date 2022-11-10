@@ -31,7 +31,7 @@ const AddService = () => {
 
 
 
-        fetch(' https://youtube-promoter-server.vercel.app/services', {
+        fetch('https://youtube-promoter-server.vercel.app/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

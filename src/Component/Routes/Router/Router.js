@@ -17,14 +17,14 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/', element: <Home></Home>,
-                loader: () => fetch(' https://youtube-promoter-server.vercel.app/three-services')
+                loader: () => fetch('https://youtube-promoter-server.vercel.app/three-services')
             },
             {
                 path: '/my-reviews', element: <PrivateRoute><MyReviews></MyReviews></PrivateRoute>
             },
             {
                 path: '/services/:id', element: <Reviews></Reviews>,
-                loader: ({ params }) => fetch(` https://youtube-promoter-server.vercel.app/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://youtube-promoter-server.vercel.app/services/${params.id}`)
             },
             {
                 path: '/add-service', element: <PrivateRoute><AddService></AddService></PrivateRoute>
@@ -34,7 +34,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/services', element: <Services></Services>,
-                loader: () => fetch(' https://youtube-promoter-server.vercel.app/services')
+                loader: () => fetch('https://youtube-promoter-server.vercel.app/services')
             },
             {
                 path: '/login', element: <Login></Login>

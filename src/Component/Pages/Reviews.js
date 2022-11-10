@@ -28,7 +28,7 @@ const Reviews = () => {
 
 
     useEffect(() => {
-        fetch(` https://youtube-promoter-server.vercel.app/reviews?id=${_id}`)
+        fetch(`https://youtube-promoter-server.vercel.app/reviews?id=${_id}`)
             .then(res => res.json())
             .then(data => setComments(data))
     }, [_id, refresh]);
@@ -83,7 +83,7 @@ const Reviews = () => {
             return
         }
         else {
-            fetch(' https://youtube-promoter-server.vercel.app/reviews', {
+            fetch('https://youtube-promoter-server.vercel.app/reviews', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

@@ -25,7 +25,7 @@ const MyReviews = () => {
     const [myReviews, setMyReviews] = useState([])
 
     useEffect(() => {
-        fetch(` https://youtube-promoter-server.vercel.app/my-reviews?email=${user?.email}`, {
+        fetch(`https://youtube-promoter-server.vercel.app/my-reviews?email=${user?.email}`, {
             headers: {
                 authorization: `Bearer ${localStorage.getItem('labour-token')}`
             }
@@ -44,7 +44,7 @@ const MyReviews = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Confirm to Delete');
         if (proceed) {
-            fetch(` https://youtube-promoter-server.vercel.app/reviews/${id}`, {
+            fetch(`https://youtube-promoter-server.vercel.app/reviews/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
