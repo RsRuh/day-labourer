@@ -286,13 +286,6 @@ const HomeDownPart = () => {
 
             {/* section 3 */}
 
-
-           
-
-
-
-
-
             {/* section 4  */}
             <section className="py-20 shadow-sm border dark:dark:bg-gray-800 dark:dark:text-gray-50 my-5">
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">

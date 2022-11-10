@@ -27,7 +27,7 @@ const AddService = () => {
             imgURL: imgURL,
             details: details
         }
-        console.log(service);
+        // console.log(service);
 
 
 
@@ -40,7 +40,7 @@ const AddService = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 if (data.acknowledged) {
                     toast.success('Successfully Added')
                     form.reset();
