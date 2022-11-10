@@ -12,7 +12,7 @@ const HomeDownPart = () => {
                         <a rel="noopener noreferrer" href="#" target="_blank" className="underline dark:dark:text-violet-400">
                             <span itemProp="name">Rs Ruh</span>
                         </a>on
-                        <time dateTime="2021-02-12 15:34:18-0200">Nov 9th 2022</time>
+                        <time dateTime="2021-02-12 15:34:18-0200">Oct 11th 2022</time>
                     </p>
                 </div>
                 <div className="dark:dark:text-gray-100">
@@ -62,9 +62,9 @@ const HomeDownPart = () => {
                         <h1
                             className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-800 dark:text-white text-start  lg:text-left"
                         >
-                            Meet my todays Client   
+                            Meet my todays Client
                         </h1>
-                        
+
                         <div className="w-full flex justify-center lg:justify-start">
                             <button
                                 className="bg-indigo-700 text-base font-medium text-white rounded text-center py-4 px-9 mt-8 lg:mt-12 hover:bg-indigo-600 leading-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 w-full sm:w-auto"
@@ -84,7 +84,7 @@ const HomeDownPart = () => {
                                 className="w-16 h-16"
                                 alt="display avatar"
                                 role="img"
-                                
+
                             />
                         </div>
                         <div role="listitem" className="flex justify-center items-center">
