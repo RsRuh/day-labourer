@@ -2,7 +2,8 @@ import React from 'react';
 
 const Comment = ({comment}) => {
     const {userName, email, feedback, time, photo, date} = comment;
- 
+ 	
+	console.log(comment);
     return (
         <div className="container flex flex-col border shadow-xl w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 dark:dark:bg-gray-900 dark:dark:text-gray-100">
 	<div className="flex justify-between p-4">
